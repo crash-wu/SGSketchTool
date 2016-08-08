@@ -129,7 +129,7 @@ Pod::Spec.new do |s|
 
    s.requires_arc = true
 
-   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$HOME/Library/SDKs/ArcGIS/iOS" }
+   s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(HOME)/Library/SDKs/ArcGIS/iOS" }
   # s.dependency "JSONKit", "~> 1.4"
 
 end
