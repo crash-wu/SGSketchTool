@@ -32,6 +32,6 @@ A layer that allows the user to interactively sketch geometries on the map .You 
     
     pod 'SGSketchToolLayer'
 
-![Benchmark result](https://raw.github.com/crash_wu/SCMultipleTableView/66BFAE46-7E4E-4A68-BEC5-2E924F028479.png
+![Benchmark result](https://raw.github.com/crash_wu/SGSKetchTool/sketchLayer_gif.gif
                     )
 
