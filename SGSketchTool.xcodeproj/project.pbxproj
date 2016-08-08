@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9876975B1D581592003FC4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876975A1D581592003FC4E4 /* AppDelegate.swift */; };
-		9876975D1D581592003FC4E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876975C1D581592003FC4E4 /* ViewController.swift */; };
 		987697601D581592003FC4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9876975E1D581592003FC4E4 /* Main.storyboard */; };
 		987697621D581592003FC4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987697611D581592003FC4E4 /* Assets.xcassets */; };
 		987697651D581592003FC4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987697631D581592003FC4E4 /* LaunchScreen.storyboard */; };
 		987697701D581592003FC4E4 /* SGSketchToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876976F1D581592003FC4E4 /* SGSketchToolTests.swift */; };
 		9876977B1D581592003FC4E4 /* SGSketchToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876977A1D581592003FC4E4 /* SGSketchToolUITests.swift */; };
+		987697891D5815F3003FC4E4 /* SketchToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987697881D5815F3003FC4E4 /* SketchToolViewController.swift */; };
+		9876978C1D581AFE003FC4E4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876978B1D581AFE003FC4E4 /* MapViewController.swift */; };
+		9876978E1D582023003FC4E4 /* SketchEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876978D1D582023003FC4E4 /* SketchEnum.swift */; };
+		987697901D58248D003FC4E4 /* SketchToolLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876978F1D58248D003FC4E4 /* SketchToolLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		987697571D581592003FC4E4 /* SGSketchTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGSketchTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9876975A1D581592003FC4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9876975C1D581592003FC4E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9876975F1D581592003FC4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		987697611D581592003FC4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		987697641D581592003FC4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		987697761D581592003FC4E4 /* SGSketchToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGSketchToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9876977A1D581592003FC4E4 /* SGSketchToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGSketchToolUITests.swift; sourceTree = "<group>"; };
 		9876977C1D581592003FC4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		987697881D5815F3003FC4E4 /* SketchToolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchToolViewController.swift; sourceTree = "<group>"; };
+		9876978B1D581AFE003FC4E4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9876978D1D582023003FC4E4 /* SketchEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchEnum.swift; sourceTree = "<group>"; };
+		9876978F1D58248D003FC4E4 /* SketchToolLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchToolLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,14 @@
 		987697591D581592003FC4E4 /* SGSketchTool */ = {
 			isa = PBXGroup;
 			children = (
+				9876978A1D581A89003FC4E4 /* SketchTool */,
 				9876975A1D581592003FC4E4 /* AppDelegate.swift */,
-				9876975C1D581592003FC4E4 /* ViewController.swift */,
 				9876975E1D581592003FC4E4 /* Main.storyboard */,
 				987697611D581592003FC4E4 /* Assets.xcassets */,
 				987697631D581592003FC4E4 /* LaunchScreen.storyboard */,
 				987697661D581592003FC4E4 /* Info.plist */,
+				987697881D5815F3003FC4E4 /* SketchToolViewController.swift */,
+				9876978B1D581AFE003FC4E4 /* MapViewController.swift */,
 			);
 			path = SGSketchTool;
 			sourceTree = "<group>";
@@ -123,6 +131,15 @@
 				9876977C1D581592003FC4E4 /* Info.plist */,
 			);
 			path = SGSketchToolUITests;
+			sourceTree = "<group>";
+		};
+		9876978A1D581A89003FC4E4 /* SketchTool */ = {
+			isa = PBXGroup;
+			children = (
+				9876978D1D582023003FC4E4 /* SketchEnum.swift */,
+				9876978F1D58248D003FC4E4 /* SketchToolLayer.swift */,
+			);
+			path = SketchTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9876975D1D581592003FC4E4 /* ViewController.swift in Sources */,
+				987697891D5815F3003FC4E4 /* SketchToolViewController.swift in Sources */,
+				9876978C1D581AFE003FC4E4 /* MapViewController.swift in Sources */,
+				987697901D58248D003FC4E4 /* SketchToolLayer.swift in Sources */,
+				9876978E1D582023003FC4E4 /* SketchEnum.swift in Sources */,
 				9876975B1D581592003FC4E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,8 +419,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS;
 				INFOPLIST_FILE = SGSketchTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -410,8 +440,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS;
 				INFOPLIST_FILE = SGSketchTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -482,6 +522,7 @@
 				987697811D581592003FC4E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		987697821D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchToolTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +531,7 @@
 				987697841D581592003FC4E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		987697851D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +540,7 @@
 				987697871D581592003FC4E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
