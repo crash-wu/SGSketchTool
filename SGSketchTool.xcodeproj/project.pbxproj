@@ -17,7 +17,8 @@
 		9876978C1D581AFE003FC4E4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876978B1D581AFE003FC4E4 /* MapViewController.swift */; };
 		9876978E1D582023003FC4E4 /* SketchEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876978D1D582023003FC4E4 /* SketchEnum.swift */; };
 		987697901D58248D003FC4E4 /* SketchToolLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876978F1D58248D003FC4E4 /* SketchToolLayer.swift */; };
-		987697941D585E56003FC4E4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 987697931D585E56003FC4E4 /* README.md */; };
+		987697961D586420003FC4E4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 987697951D586420003FC4E4 /* README.md */; };
+		987697981D586443003FC4E4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 987697971D586443003FC4E4 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,8 @@
 		9876978B1D581AFE003FC4E4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9876978D1D582023003FC4E4 /* SketchEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchEnum.swift; sourceTree = "<group>"; };
 		9876978F1D58248D003FC4E4 /* SketchToolLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchToolLayer.swift; sourceTree = "<group>"; };
-		987697931D585E56003FC4E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		987697951D586420003FC4E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		987697971D586443003FC4E4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,8 @@
 		9876974E1D581592003FC4E4 = {
 			isa = PBXGroup;
 			children = (
+				987697971D586443003FC4E4 /* LICENSE */,
+				987697951D586420003FC4E4 /* README.md */,
 				987697591D581592003FC4E4 /* SGSketchTool */,
 				9876976E1D581592003FC4E4 /* SGSketchToolTests */,
 				987697791D581592003FC4E4 /* SGSketchToolUITests */,
@@ -105,7 +109,6 @@
 		987697591D581592003FC4E4 /* SGSketchTool */ = {
 			isa = PBXGroup;
 			children = (
-				987697931D585E56003FC4E4 /* README.md */,
 				9876978A1D581A89003FC4E4 /* SketchTool */,
 				9876975A1D581592003FC4E4 /* AppDelegate.swift */,
 				9876975E1D581592003FC4E4 /* Main.storyboard */,
@@ -251,6 +254,7 @@
 			files = (
 				987697651D581592003FC4E4 /* LaunchScreen.storyboard in Resources */,
 				987697621D581592003FC4E4 /* Assets.xcassets in Resources */,
+				987697981D586443003FC4E4 /* LICENSE in Resources */,
 				987697601D581592003FC4E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987697941D585E56003FC4E4 /* README.md in Sources */,
+				987697961D586420003FC4E4 /* README.md in Sources */,
 				987697891D5815F3003FC4E4 /* SketchToolViewController.swift in Sources */,
 				9876978C1D581AFE003FC4E4 /* MapViewController.swift in Sources */,
 				987697901D58248D003FC4E4 /* SketchToolLayer.swift in Sources */,
