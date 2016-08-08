@@ -19,6 +19,8 @@
 		987697901D58248D003FC4E4 /* SketchToolLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876978F1D58248D003FC4E4 /* SketchToolLayer.swift */; };
 		987697961D586420003FC4E4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 987697951D586420003FC4E4 /* README.md */; };
 		987697981D586443003FC4E4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 987697971D586443003FC4E4 /* LICENSE */; };
+		9876979E1D586B24003FC4E4 /* SGSketchLayer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9876979D1D586B24003FC4E4 /* SGSketchLayer.podspec */; };
+		987697A01D587116003FC4E4 /* sketchLayer_gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9876979F1D587116003FC4E4 /* sketchLayer_gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		9876978F1D58248D003FC4E4 /* SketchToolLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchToolLayer.swift; sourceTree = "<group>"; };
 		987697951D586420003FC4E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		987697971D586443003FC4E4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9876979D1D586B24003FC4E4 /* SGSketchLayer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SGSketchLayer.podspec; sourceTree = "<group>"; };
+		9876979F1D587116003FC4E4 /* sketchLayer_gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sketchLayer_gif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		9876974E1D581592003FC4E4 = {
 			isa = PBXGroup;
 			children = (
+				9876979F1D587116003FC4E4 /* sketchLayer_gif.gif */,
+				9876979D1D586B24003FC4E4 /* SGSketchLayer.podspec */,
 				987697971D586443003FC4E4 /* LICENSE */,
 				987697951D586420003FC4E4 /* README.md */,
 				987697591D581592003FC4E4 /* SGSketchTool */,
@@ -252,6 +258,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9876979E1D586B24003FC4E4 /* SGSketchLayer.podspec in Resources */,
+				987697A01D587116003FC4E4 /* sketchLayer_gif.gif in Resources */,
 				987697651D581592003FC4E4 /* LaunchScreen.storyboard in Resources */,
 				987697621D581592003FC4E4 /* Assets.xcassets in Resources */,
 				987697981D586443003FC4E4 /* LICENSE in Resources */,
