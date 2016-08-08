@@ -28,5 +28,10 @@ A layer that allows the user to interactively sketch geometries on the map .You 
     */
     func geometry()->AGSGeometry?
 
+#Install 
+    
+    pod 'SGSketchToolLayer'
 
+![Benchmark result](https://raw.github.com/crash_wu/SCMultipleTableView/66BFAE46-7E4E-4A68-BEC5-2E924F028479.png
+                    )
 
