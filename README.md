@@ -30,8 +30,13 @@ A layer that allows the user to interactively sketch geometries on the map .You 
 
 #Install 
     
-    pod 'SGSketchToolLayer'
+    pod 'SGSketchLayer'
 
-![Benchmark result](https://raw.github.com/crash_wu/SGSKetchTool/sketchLayer_gif.gif
-                    )
+![(绘制点)](http://www.cnblogs.com/crash-wu/gallery/image/172410.html)
+
+![(绘制折线)](http://www.cnblogs.com/crash-wu/gallery/image/172411.html)
+
+![(绘制曲线)](http://www.cnblogs.com/crash-wu/gallery/image/172412.html)
+
+![(绘制曲面,多边形)](http://www.cnblogs.com/crash-wu/gallery/image/172414.html)
 
