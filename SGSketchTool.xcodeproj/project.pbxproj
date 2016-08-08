@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9876975B1D581592003FC4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876975A1D581592003FC4E4 /* AppDelegate.swift */; };
+		9876975D1D581592003FC4E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876975C1D581592003FC4E4 /* ViewController.swift */; };
+		987697601D581592003FC4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9876975E1D581592003FC4E4 /* Main.storyboard */; };
+		987697621D581592003FC4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987697611D581592003FC4E4 /* Assets.xcassets */; };
+		987697651D581592003FC4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987697631D581592003FC4E4 /* LaunchScreen.storyboard */; };
+		987697701D581592003FC4E4 /* SGSketchToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876976F1D581592003FC4E4 /* SGSketchToolTests.swift */; };
+		9876977B1D581592003FC4E4 /* SGSketchToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876977A1D581592003FC4E4 /* SGSketchToolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9876976C1D581592003FC4E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9876974F1D581592003FC4E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 987697561D581592003FC4E4;
+			remoteInfo = SGSketchTool;
+		};
+		987697771D581592003FC4E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9876974F1D581592003FC4E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 987697561D581592003FC4E4;
+			remoteInfo = SGSketchTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		987697571D581592003FC4E4 /* SGSketchTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGSketchTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9876975A1D581592003FC4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9876975C1D581592003FC4E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9876975F1D581592003FC4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		987697611D581592003FC4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		987697641D581592003FC4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		987697661D581592003FC4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9876976B1D581592003FC4E4 /* SGSketchToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGSketchToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9876976F1D581592003FC4E4 /* SGSketchToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGSketchToolTests.swift; sourceTree = "<group>"; };
+		987697711D581592003FC4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		987697761D581592003FC4E4 /* SGSketchToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGSketchToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9876977A1D581592003FC4E4 /* SGSketchToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGSketchToolUITests.swift; sourceTree = "<group>"; };
+		9876977C1D581592003FC4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		987697541D581592003FC4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987697681D581592003FC4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987697731D581592003FC4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9876974E1D581592003FC4E4 = {
+			isa = PBXGroup;
+			children = (
+				987697591D581592003FC4E4 /* SGSketchTool */,
+				9876976E1D581592003FC4E4 /* SGSketchToolTests */,
+				987697791D581592003FC4E4 /* SGSketchToolUITests */,
+				987697581D581592003FC4E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		987697581D581592003FC4E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				987697571D581592003FC4E4 /* SGSketchTool.app */,
+				9876976B1D581592003FC4E4 /* SGSketchToolTests.xctest */,
+				987697761D581592003FC4E4 /* SGSketchToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		987697591D581592003FC4E4 /* SGSketchTool */ = {
+			isa = PBXGroup;
+			children = (
+				9876975A1D581592003FC4E4 /* AppDelegate.swift */,
+				9876975C1D581592003FC4E4 /* ViewController.swift */,
+				9876975E1D581592003FC4E4 /* Main.storyboard */,
+				987697611D581592003FC4E4 /* Assets.xcassets */,
+				987697631D581592003FC4E4 /* LaunchScreen.storyboard */,
+				987697661D581592003FC4E4 /* Info.plist */,
+			);
+			path = SGSketchTool;
+			sourceTree = "<group>";
+		};
+		9876976E1D581592003FC4E4 /* SGSketchToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				9876976F1D581592003FC4E4 /* SGSketchToolTests.swift */,
+				987697711D581592003FC4E4 /* Info.plist */,
+			);
+			path = SGSketchToolTests;
+			sourceTree = "<group>";
+		};
+		987697791D581592003FC4E4 /* SGSketchToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9876977A1D581592003FC4E4 /* SGSketchToolUITests.swift */,
+				9876977C1D581592003FC4E4 /* Info.plist */,
+			);
+			path = SGSketchToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		987697561D581592003FC4E4 /* SGSketchTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9876977F1D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchTool" */;
+			buildPhases = (
+				987697531D581592003FC4E4 /* Sources */,
+				987697541D581592003FC4E4 /* Frameworks */,
+				987697551D581592003FC4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGSketchTool;
+			productName = SGSketchTool;
+			productReference = 987697571D581592003FC4E4 /* SGSketchTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9876976A1D581592003FC4E4 /* SGSketchToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 987697821D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchToolTests" */;
+			buildPhases = (
+				987697671D581592003FC4E4 /* Sources */,
+				987697681D581592003FC4E4 /* Frameworks */,
+				987697691D581592003FC4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9876976D1D581592003FC4E4 /* PBXTargetDependency */,
+			);
+			name = SGSketchToolTests;
+			productName = SGSketchToolTests;
+			productReference = 9876976B1D581592003FC4E4 /* SGSketchToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		987697751D581592003FC4E4 /* SGSketchToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 987697851D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchToolUITests" */;
+			buildPhases = (
+				987697721D581592003FC4E4 /* Sources */,
+				987697731D581592003FC4E4 /* Frameworks */,
+				987697741D581592003FC4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				987697781D581592003FC4E4 /* PBXTargetDependency */,
+			);
+			name = SGSketchToolUITests;
+			productName = SGSketchToolUITests;
+			productReference = 987697761D581592003FC4E4 /* SGSketchToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9876974F1D581592003FC4E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = crash;
+				TargetAttributes = {
+					987697561D581592003FC4E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9876976A1D581592003FC4E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 987697561D581592003FC4E4;
+					};
+					987697751D581592003FC4E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 987697561D581592003FC4E4;
+					};
+				};
+			};
+			buildConfigurationList = 987697521D581592003FC4E4 /* Build configuration list for PBXProject "SGSketchTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9876974E1D581592003FC4E4;
+			productRefGroup = 987697581D581592003FC4E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				987697561D581592003FC4E4 /* SGSketchTool */,
+				9876976A1D581592003FC4E4 /* SGSketchToolTests */,
+				987697751D581592003FC4E4 /* SGSketchToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		987697551D581592003FC4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987697651D581592003FC4E4 /* LaunchScreen.storyboard in Resources */,
+				987697621D581592003FC4E4 /* Assets.xcassets in Resources */,
+				987697601D581592003FC4E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987697691D581592003FC4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987697741D581592003FC4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		987697531D581592003FC4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9876975D1D581592003FC4E4 /* ViewController.swift in Sources */,
+				9876975B1D581592003FC4E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987697671D581592003FC4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987697701D581592003FC4E4 /* SGSketchToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987697721D581592003FC4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9876977B1D581592003FC4E4 /* SGSketchToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9876976D1D581592003FC4E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 987697561D581592003FC4E4 /* SGSketchTool */;
+			targetProxy = 9876976C1D581592003FC4E4 /* PBXContainerItemProxy */;
+		};
+		987697781D581592003FC4E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 987697561D581592003FC4E4 /* SGSketchTool */;
+			targetProxy = 987697771D581592003FC4E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9876975E1D581592003FC4E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9876975F1D581592003FC4E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		987697631D581592003FC4E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				987697641D581592003FC4E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9876977D1D581592003FC4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9876977E1D581592003FC4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		987697801D581592003FC4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGSketchTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		987697811D581592003FC4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGSketchTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		987697831D581592003FC4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SGSketchToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGSketchTool.app/SGSketchTool";
+			};
+			name = Debug;
+		};
+		987697841D581592003FC4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SGSketchToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGSketchTool.app/SGSketchTool";
+			};
+			name = Release;
+		};
+		987697861D581592003FC4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SGSketchToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGSketchTool;
+			};
+			name = Debug;
+		};
+		987697871D581592003FC4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SGSketchToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGSketchTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		987697521D581592003FC4E4 /* Build configuration list for PBXProject "SGSketchTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9876977D1D581592003FC4E4 /* Debug */,
+				9876977E1D581592003FC4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9876977F1D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987697801D581592003FC4E4 /* Debug */,
+				987697811D581592003FC4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		987697821D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987697831D581592003FC4E4 /* Debug */,
+				987697841D581592003FC4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		987697851D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987697861D581592003FC4E4 /* Debug */,
+				987697871D581592003FC4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9876974F1D581592003FC4E4 /* Project object */;
+}
