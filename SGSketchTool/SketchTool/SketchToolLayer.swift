@@ -12,7 +12,7 @@ import ArcGIS
 /**
  *  @author crash         crash_wu@163.com   , 16-07-14 08:07:18
  *
- *  @brief  曲线绘图工具类
+ *  @brief  绘图工具类
  */
 public class SketchToolLayer: AGSGraphicsLayer, AGSMapViewTouchDelegate{
     
@@ -105,8 +105,14 @@ public class SketchToolLayer: AGSGraphicsLayer, AGSMapViewTouchDelegate{
     }()
     
 
-    
-      init(sketchType: SketchType){
+    /**
+     初始化函数
+     
+     :param: sketchType 绘图类型
+     
+     :returns: 绘图工具类对象
+     */
+    init(sketchType: SketchType){
         super.init()
         self.sketchType = sketchType
         
