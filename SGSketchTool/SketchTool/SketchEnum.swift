@@ -25,11 +25,11 @@ enum SketchType :String {
     var describe: String{
         
         switch self {
-        case .Point:    return "点"
-        case .FoldLine: return "折线"
-        case .Curve:    return "曲线"
-        case .Surfaces: return "曲面"
-        case .Polygon:  return "多边形"
+            case .Point:    return "点"
+            case .FoldLine: return "折线"
+            case .Curve:    return "曲线"
+            case .Surfaces: return "曲面"
+            case .Polygon:  return "多边形"
         }
     }
 }

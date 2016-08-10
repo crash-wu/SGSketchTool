@@ -32,6 +32,11 @@ A layer that allows the user to interactively sketch geometries on the map .You 
     
     pod 'SGSketchLayer'
 
+
+#Example
+
+
+
 ![(绘制点)](http://images.cnblogs.com/cnblogs_com/crash-wu/864784/o_sketchLayer_1.gif)
 
 ![(绘制折线)](http://images.cnblogs.com/cnblogs_com/crash-wu/864784/o_SketchLayer_2.gif)

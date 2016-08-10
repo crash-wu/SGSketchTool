@@ -114,11 +114,11 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  #s.framework  = "ArcGIS"
+   s.frameworks = "AssetsLibrary", "CoreGraphics" ,"CoreLocation","CoreText" ,"OpenGLES"
 
   # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+ # s.libraries = "libc++", "libz"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -129,7 +129,18 @@ Pod::Spec.new do |s|
 
    s.requires_arc = true
 
-   s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$HOME/Library/SDKs/ArcGIS/iOS" }
-  # s.dependency "JSONKit", "~> 1.4"
+
+  s.xcconfig = {
+
+        "FRAMEWORK_SEARCH_PATHS" => "$(HOME)/Library/SDKs/ArcGIS/iOS" ,
+        "OTHER_LDFLAGS"  => '-lObjC -framework ArcGIS -l c++',
+
+        'ENABLE_BITCODE' => 'NO',
+        'CLANG_ENABLE_MODULES' => 'YES'
+
+    }
+
+
+   #s.dependency "ArcGIS-Runtime-SDK-iOS", "~>10.2.5"
 
 end
