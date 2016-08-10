@@ -19,7 +19,7 @@ import UIKit
  - Polygon:  多边行
 
  */
-enum SketchType :String {
+public  enum SketchType :String {
     case Point ,FoldLine ,Curve ,Surfaces ,Polygon
     
     var describe: String{

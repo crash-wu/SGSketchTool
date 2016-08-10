@@ -112,7 +112,7 @@ public class SketchToolLayer: AGSGraphicsLayer, AGSMapViewTouchDelegate{
      
      :returns: 绘图工具类对象
      */
-    init(sketchType: SketchType){
+   public init(sketchType: SketchType){
         super.init()
         self.sketchType = sketchType
         
