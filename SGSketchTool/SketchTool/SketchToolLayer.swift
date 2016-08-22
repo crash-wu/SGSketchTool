@@ -159,7 +159,7 @@ public class SketchToolLayer: AGSGraphicsLayer, AGSMapViewTouchDelegate{
     public func mapView(mapView: AGSMapView!, didMoveTapAndHoldAtPoint screen: CGPoint, mapPoint mappoint: AGSPoint!, features: [NSObject : AnyObject]!) {
         
         switch sketchType {
-        case .Curve:
+        case .Curve,.FoldLine:
             //自由线
             polyline.spatialReference = mapView.spatialReference
             
@@ -168,7 +168,7 @@ public class SketchToolLayer: AGSGraphicsLayer, AGSMapViewTouchDelegate{
             graphic.geometry = polyline
             
             break
-        case .Surfaces:
+        case .Surfaces,.Polygon:
             //自由面
             polygon.spatialReference = mapView.spatialReference
             polygon.addPointToRing(mappoint)

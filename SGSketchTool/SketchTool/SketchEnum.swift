@@ -22,7 +22,7 @@ import UIKit
 public  enum SketchType :String {
     case Point ,FoldLine ,Curve ,Surfaces ,Polygon
     
-    var describe: String{
+   public var describe: String{
         
         switch self {
             case .Point:    return "点"

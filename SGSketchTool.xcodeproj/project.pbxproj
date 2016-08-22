@@ -1,591 +1,1376 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		9876975B1D581592003FC4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876975A1D581592003FC4E4 /* AppDelegate.swift */; };
-		987697601D581592003FC4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9876975E1D581592003FC4E4 /* Main.storyboard */; };
-		987697621D581592003FC4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987697611D581592003FC4E4 /* Assets.xcassets */; };
-		987697651D581592003FC4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987697631D581592003FC4E4 /* LaunchScreen.storyboard */; };
-		987697701D581592003FC4E4 /* SGSketchToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876976F1D581592003FC4E4 /* SGSketchToolTests.swift */; };
-		9876977B1D581592003FC4E4 /* SGSketchToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876977A1D581592003FC4E4 /* SGSketchToolUITests.swift */; };
-		987697891D5815F3003FC4E4 /* SketchToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987697881D5815F3003FC4E4 /* SketchToolViewController.swift */; };
-		9876978C1D581AFE003FC4E4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876978B1D581AFE003FC4E4 /* MapViewController.swift */; };
-		9876978E1D582023003FC4E4 /* SketchEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876978D1D582023003FC4E4 /* SketchEnum.swift */; };
-		987697901D58248D003FC4E4 /* SketchToolLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876978F1D58248D003FC4E4 /* SketchToolLayer.swift */; };
-		987697961D586420003FC4E4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 987697951D586420003FC4E4 /* README.md */; };
-		987697981D586443003FC4E4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 987697971D586443003FC4E4 /* LICENSE */; };
-		9876979E1D586B24003FC4E4 /* SGSketchLayer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9876979D1D586B24003FC4E4 /* SGSketchLayer.podspec */; };
-		987697A01D587116003FC4E4 /* sketchLayer_gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9876979F1D587116003FC4E4 /* sketchLayer_gif.gif */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9876976C1D581592003FC4E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9876974F1D581592003FC4E4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 987697561D581592003FC4E4;
-			remoteInfo = SGSketchTool;
-		};
-		987697771D581592003FC4E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9876974F1D581592003FC4E4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 987697561D581592003FC4E4;
-			remoteInfo = SGSketchTool;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		987697571D581592003FC4E4 /* SGSketchTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGSketchTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9876975A1D581592003FC4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9876975F1D581592003FC4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		987697611D581592003FC4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		987697641D581592003FC4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		987697661D581592003FC4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9876976B1D581592003FC4E4 /* SGSketchToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGSketchToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9876976F1D581592003FC4E4 /* SGSketchToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGSketchToolTests.swift; sourceTree = "<group>"; };
-		987697711D581592003FC4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		987697761D581592003FC4E4 /* SGSketchToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGSketchToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9876977A1D581592003FC4E4 /* SGSketchToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGSketchToolUITests.swift; sourceTree = "<group>"; };
-		9876977C1D581592003FC4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		987697881D5815F3003FC4E4 /* SketchToolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchToolViewController.swift; sourceTree = "<group>"; };
-		9876978B1D581AFE003FC4E4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		9876978D1D582023003FC4E4 /* SketchEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchEnum.swift; sourceTree = "<group>"; };
-		9876978F1D58248D003FC4E4 /* SketchToolLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchToolLayer.swift; sourceTree = "<group>"; };
-		987697951D586420003FC4E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		987697971D586443003FC4E4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9876979D1D586B24003FC4E4 /* SGSketchLayer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SGSketchLayer.podspec; sourceTree = "<group>"; };
-		9876979F1D587116003FC4E4 /* sketchLayer_gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sketchLayer_gif.gif; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		987697541D581592003FC4E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		987697681D581592003FC4E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		987697731D581592003FC4E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		9876974E1D581592003FC4E4 = {
-			isa = PBXGroup;
-			children = (
-				9876979F1D587116003FC4E4 /* sketchLayer_gif.gif */,
-				9876979D1D586B24003FC4E4 /* SGSketchLayer.podspec */,
-				987697971D586443003FC4E4 /* LICENSE */,
-				987697951D586420003FC4E4 /* README.md */,
-				987697591D581592003FC4E4 /* SGSketchTool */,
-				9876976E1D581592003FC4E4 /* SGSketchToolTests */,
-				987697791D581592003FC4E4 /* SGSketchToolUITests */,
-				987697581D581592003FC4E4 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		987697581D581592003FC4E4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				987697571D581592003FC4E4 /* SGSketchTool.app */,
-				9876976B1D581592003FC4E4 /* SGSketchToolTests.xctest */,
-				987697761D581592003FC4E4 /* SGSketchToolUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		987697591D581592003FC4E4 /* SGSketchTool */ = {
-			isa = PBXGroup;
-			children = (
-				9876978A1D581A89003FC4E4 /* SketchTool */,
-				9876975A1D581592003FC4E4 /* AppDelegate.swift */,
-				9876975E1D581592003FC4E4 /* Main.storyboard */,
-				987697611D581592003FC4E4 /* Assets.xcassets */,
-				987697631D581592003FC4E4 /* LaunchScreen.storyboard */,
-				987697661D581592003FC4E4 /* Info.plist */,
-				987697881D5815F3003FC4E4 /* SketchToolViewController.swift */,
-				9876978B1D581AFE003FC4E4 /* MapViewController.swift */,
-			);
-			path = SGSketchTool;
-			sourceTree = "<group>";
-		};
-		9876976E1D581592003FC4E4 /* SGSketchToolTests */ = {
-			isa = PBXGroup;
-			children = (
-				9876976F1D581592003FC4E4 /* SGSketchToolTests.swift */,
-				987697711D581592003FC4E4 /* Info.plist */,
-			);
-			path = SGSketchToolTests;
-			sourceTree = "<group>";
-		};
-		987697791D581592003FC4E4 /* SGSketchToolUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9876977A1D581592003FC4E4 /* SGSketchToolUITests.swift */,
-				9876977C1D581592003FC4E4 /* Info.plist */,
-			);
-			path = SGSketchToolUITests;
-			sourceTree = "<group>";
-		};
-		9876978A1D581A89003FC4E4 /* SketchTool */ = {
-			isa = PBXGroup;
-			children = (
-				9876978D1D582023003FC4E4 /* SketchEnum.swift */,
-				9876978F1D58248D003FC4E4 /* SketchToolLayer.swift */,
-			);
-			path = SketchTool;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		987697561D581592003FC4E4 /* SGSketchTool */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9876977F1D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchTool" */;
-			buildPhases = (
-				987697531D581592003FC4E4 /* Sources */,
-				987697541D581592003FC4E4 /* Frameworks */,
-				987697551D581592003FC4E4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SGSketchTool;
-			productName = SGSketchTool;
-			productReference = 987697571D581592003FC4E4 /* SGSketchTool.app */;
-			productType = "com.apple.product-type.application";
-		};
-		9876976A1D581592003FC4E4 /* SGSketchToolTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 987697821D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchToolTests" */;
-			buildPhases = (
-				987697671D581592003FC4E4 /* Sources */,
-				987697681D581592003FC4E4 /* Frameworks */,
-				987697691D581592003FC4E4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9876976D1D581592003FC4E4 /* PBXTargetDependency */,
-			);
-			name = SGSketchToolTests;
-			productName = SGSketchToolTests;
-			productReference = 9876976B1D581592003FC4E4 /* SGSketchToolTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		987697751D581592003FC4E4 /* SGSketchToolUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 987697851D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchToolUITests" */;
-			buildPhases = (
-				987697721D581592003FC4E4 /* Sources */,
-				987697731D581592003FC4E4 /* Frameworks */,
-				987697741D581592003FC4E4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				987697781D581592003FC4E4 /* PBXTargetDependency */,
-			);
-			name = SGSketchToolUITests;
-			productName = SGSketchToolUITests;
-			productReference = 987697761D581592003FC4E4 /* SGSketchToolUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		9876974F1D581592003FC4E4 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = crash;
-				TargetAttributes = {
-					987697561D581592003FC4E4 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					9876976A1D581592003FC4E4 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 987697561D581592003FC4E4;
-					};
-					987697751D581592003FC4E4 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 987697561D581592003FC4E4;
-					};
-				};
-			};
-			buildConfigurationList = 987697521D581592003FC4E4 /* Build configuration list for PBXProject "SGSketchTool" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 9876974E1D581592003FC4E4;
-			productRefGroup = 987697581D581592003FC4E4 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				987697561D581592003FC4E4 /* SGSketchTool */,
-				9876976A1D581592003FC4E4 /* SGSketchToolTests */,
-				987697751D581592003FC4E4 /* SGSketchToolUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		987697551D581592003FC4E4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9876979E1D586B24003FC4E4 /* SGSketchLayer.podspec in Resources */,
-				987697A01D587116003FC4E4 /* sketchLayer_gif.gif in Resources */,
-				987697651D581592003FC4E4 /* LaunchScreen.storyboard in Resources */,
-				987697621D581592003FC4E4 /* Assets.xcassets in Resources */,
-				987697981D586443003FC4E4 /* LICENSE in Resources */,
-				987697601D581592003FC4E4 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		987697691D581592003FC4E4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		987697741D581592003FC4E4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		987697531D581592003FC4E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				987697961D586420003FC4E4 /* README.md in Sources */,
-				987697891D5815F3003FC4E4 /* SketchToolViewController.swift in Sources */,
-				9876978C1D581AFE003FC4E4 /* MapViewController.swift in Sources */,
-				987697901D58248D003FC4E4 /* SketchToolLayer.swift in Sources */,
-				9876978E1D582023003FC4E4 /* SketchEnum.swift in Sources */,
-				9876975B1D581592003FC4E4 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		987697671D581592003FC4E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				987697701D581592003FC4E4 /* SGSketchToolTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		987697721D581592003FC4E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9876977B1D581592003FC4E4 /* SGSketchToolUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9876976D1D581592003FC4E4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 987697561D581592003FC4E4 /* SGSketchTool */;
-			targetProxy = 9876976C1D581592003FC4E4 /* PBXContainerItemProxy */;
-		};
-		987697781D581592003FC4E4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 987697561D581592003FC4E4 /* SGSketchTool */;
-			targetProxy = 987697771D581592003FC4E4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9876975E1D581592003FC4E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9876975F1D581592003FC4E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		987697631D581592003FC4E4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				987697641D581592003FC4E4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		9876977D1D581592003FC4E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-framework",
-					ArcGIS,
-					"-l",
-					"c++",
-				);
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		9876977E1D581592003FC4E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-framework",
-					ArcGIS,
-					"-l",
-					"c++",
-				);
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		987697801D581592003FC4E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					$HOME/Library/SDKs/ArcGIS/iOS,
-					"$(PROJECT_DIR)",
-				);
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = SGSketchTool/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-framework",
-					ArcGIS,
-					"-l",
-					"c++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchTool;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		987697811D581592003FC4E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					$HOME/Library/SDKs/ArcGIS/iOS,
-					"$(PROJECT_DIR)",
-				);
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = SGSketchTool/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-framework",
-					ArcGIS,
-					"-l",
-					"c++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchTool;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-			};
-			name = Release;
-		};
-		987697831D581592003FC4E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SGSketchToolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchToolTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGSketchTool.app/SGSketchTool";
-			};
-			name = Debug;
-		};
-		987697841D581592003FC4E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SGSketchToolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchToolTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGSketchTool.app/SGSketchTool";
-			};
-			name = Release;
-		};
-		987697861D581592003FC4E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SGSketchToolUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchToolUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SGSketchTool;
-			};
-			name = Debug;
-		};
-		987697871D581592003FC4E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SGSketchToolUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.SGSketchToolUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SGSketchTool;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		987697521D581592003FC4E4 /* Build configuration list for PBXProject "SGSketchTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9876977D1D581592003FC4E4 /* Debug */,
-				9876977E1D581592003FC4E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9876977F1D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				987697801D581592003FC4E4 /* Debug */,
-				987697811D581592003FC4E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		987697821D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchToolTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				987697831D581592003FC4E4 /* Debug */,
-				987697841D581592003FC4E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		987697851D581592003FC4E4 /* Build configuration list for PBXNativeTarget "SGSketchToolUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				987697861D581592003FC4E4 /* Debug */,
-				987697871D581592003FC4E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 9876974F1D581592003FC4E4 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>208956307BC5AA3AAFCE4BA5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>478963848B6CBBE0AD14FD10</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>5D88EAD8EE6FD08DA197F643</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>6C258DB475F0F0AAB15AB5CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8C10D6B1643DD362059F4399</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EDEFE43B559C267DEC01DAD2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876974E1D581592003FC4E4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>987698111D5B0457003FC4E4</string>
+				<string>9876979F1D587116003FC4E4</string>
+				<string>9876979D1D586B24003FC4E4</string>
+				<string>987697971D586443003FC4E4</string>
+				<string>987697951D586420003FC4E4</string>
+				<string>987697591D581592003FC4E4</string>
+				<string>9876976E1D581592003FC4E4</string>
+				<string>987697791D581592003FC4E4</string>
+				<string>987697581D581592003FC4E4</string>
+				<string>9E1D4B097947C118BA7A9632</string>
+				<string>8C10D6B1643DD362059F4399</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876974F1D581592003FC4E4</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>crash</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>987697561D581592003FC4E4</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+					</dict>
+					<key>9876976A1D581592003FC4E4</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>TestTargetID</key>
+						<string>987697561D581592003FC4E4</string>
+					</dict>
+					<key>987697751D581592003FC4E4</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>TestTargetID</key>
+						<string>987697561D581592003FC4E4</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>987697521D581592003FC4E4</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>9876974E1D581592003FC4E4</string>
+			<key>productRefGroup</key>
+			<string>987697581D581592003FC4E4</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>987697561D581592003FC4E4</string>
+				<string>9876976A1D581592003FC4E4</string>
+				<string>987697751D581592003FC4E4</string>
+			</array>
+		</dict>
+		<key>987697521D581592003FC4E4</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9876977D1D581592003FC4E4</string>
+				<string>9876977E1D581592003FC4E4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>987697531D581592003FC4E4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>987697961D586420003FC4E4</string>
+				<string>987697891D5815F3003FC4E4</string>
+				<string>9876978C1D581AFE003FC4E4</string>
+				<string>987697901D58248D003FC4E4</string>
+				<string>9876978E1D582023003FC4E4</string>
+				<string>9876975B1D581592003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>987697541D581592003FC4E4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>ABFA5F5B228FCE93E6A8D8B3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>987697551D581592003FC4E4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9876979E1D586B24003FC4E4</string>
+				<string>987697A01D587116003FC4E4</string>
+				<string>987697651D581592003FC4E4</string>
+				<string>987697621D581592003FC4E4</string>
+				<string>987697981D586443003FC4E4</string>
+				<string>987698121D5B0457003FC4E4</string>
+				<string>987697601D581592003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>987697561D581592003FC4E4</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9876977F1D581592003FC4E4</string>
+			<key>buildPhases</key>
+			<array>
+				<string>208956307BC5AA3AAFCE4BA5</string>
+				<string>987697531D581592003FC4E4</string>
+				<string>987697541D581592003FC4E4</string>
+				<string>987697551D581592003FC4E4</string>
+				<string>5D88EAD8EE6FD08DA197F643</string>
+				<string>478963848B6CBBE0AD14FD10</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SGSketchTool</string>
+			<key>productName</key>
+			<string>SGSketchTool</string>
+			<key>productReference</key>
+			<string>987697571D581592003FC4E4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>987697571D581592003FC4E4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SGSketchTool.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>987697581D581592003FC4E4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>987697571D581592003FC4E4</string>
+				<string>9876976B1D581592003FC4E4</string>
+				<string>987697761D581592003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697591D581592003FC4E4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9876978A1D581A89003FC4E4</string>
+				<string>9876975A1D581592003FC4E4</string>
+				<string>9876975E1D581592003FC4E4</string>
+				<string>987697611D581592003FC4E4</string>
+				<string>987697631D581592003FC4E4</string>
+				<string>987697661D581592003FC4E4</string>
+				<string>987697881D5815F3003FC4E4</string>
+				<string>9876978B1D581AFE003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SGSketchTool</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876975A1D581592003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876975B1D581592003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9876975A1D581592003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9876975E1D581592003FC4E4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9876975F1D581592003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876975F1D581592003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697601D581592003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9876975E1D581592003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>987697611D581592003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697621D581592003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>987697611D581592003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>987697631D581592003FC4E4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>987697641D581592003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697641D581592003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697651D581592003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>987697631D581592003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>987697661D581592003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697671D581592003FC4E4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>987697701D581592003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>987697681D581592003FC4E4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>987697691D581592003FC4E4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9876976A1D581592003FC4E4</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>987697821D581592003FC4E4</string>
+			<key>buildPhases</key>
+			<array>
+				<string>987697671D581592003FC4E4</string>
+				<string>987697681D581592003FC4E4</string>
+				<string>987697691D581592003FC4E4</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>9876976D1D581592003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SGSketchToolTests</string>
+			<key>productName</key>
+			<string>SGSketchToolTests</string>
+			<key>productReference</key>
+			<string>9876976B1D581592003FC4E4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>9876976B1D581592003FC4E4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SGSketchToolTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>9876976C1D581592003FC4E4</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>9876974F1D581592003FC4E4</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>987697561D581592003FC4E4</string>
+			<key>remoteInfo</key>
+			<string>SGSketchTool</string>
+		</dict>
+		<key>9876976D1D581592003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>987697561D581592003FC4E4</string>
+			<key>targetProxy</key>
+			<string>9876976C1D581592003FC4E4</string>
+		</dict>
+		<key>9876976E1D581592003FC4E4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9876976F1D581592003FC4E4</string>
+				<string>987697711D581592003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SGSketchToolTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876976F1D581592003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>SGSketchToolTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697701D581592003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9876976F1D581592003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>987697711D581592003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697721D581592003FC4E4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9876977B1D581592003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>987697731D581592003FC4E4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>987697741D581592003FC4E4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>987697751D581592003FC4E4</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>987697851D581592003FC4E4</string>
+			<key>buildPhases</key>
+			<array>
+				<string>987697721D581592003FC4E4</string>
+				<string>987697731D581592003FC4E4</string>
+				<string>987697741D581592003FC4E4</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>987697781D581592003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SGSketchToolUITests</string>
+			<key>productName</key>
+			<string>SGSketchToolUITests</string>
+			<key>productReference</key>
+			<string>987697761D581592003FC4E4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>987697761D581592003FC4E4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SGSketchToolUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>987697771D581592003FC4E4</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>9876974F1D581592003FC4E4</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>987697561D581592003FC4E4</string>
+			<key>remoteInfo</key>
+			<string>SGSketchTool</string>
+		</dict>
+		<key>987697781D581592003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>987697561D581592003FC4E4</string>
+			<key>targetProxy</key>
+			<string>987697771D581592003FC4E4</string>
+		</dict>
+		<key>987697791D581592003FC4E4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9876977A1D581592003FC4E4</string>
+				<string>9876977C1D581592003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SGSketchToolUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876977A1D581592003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>SGSketchToolUITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876977B1D581592003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9876977A1D581592003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9876977C1D581592003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876977D1D581592003FC4E4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>-ObjC</string>
+					<string>-framework</string>
+					<string>ArcGIS</string>
+					<string>-l</string>
+					<string>c++</string>
+				</array>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9876977E1D581592003FC4E4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>-ObjC</string>
+					<string>-framework</string>
+					<string>ArcGIS</string>
+					<string>-l</string>
+					<string>c++</string>
+				</array>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9876977F1D581592003FC4E4</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>987697801D581592003FC4E4</string>
+				<string>987697811D581592003FC4E4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>987697801D581592003FC4E4</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>6C258DB475F0F0AAB15AB5CE</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>ENABLE_BITCODE</key>
+				<string>NO</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$HOME/Library/SDKs/ArcGIS/iOS</string>
+					<string>$(PROJECT_DIR)</string>
+				</array>
+				<key>HEADER_SEARCH_PATHS</key>
+				<string></string>
+				<key>INFOPLIST_FILE</key>
+				<string>SGSketchTool/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>-ObjC</string>
+					<string>-framework</string>
+					<string>ArcGIS</string>
+					<string>-l</string>
+					<string>c++</string>
+				</array>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.southgis.SGSketchTool</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
+				<string></string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>987697811D581592003FC4E4</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>9A15BBBA1798FE503000C663</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>ENABLE_BITCODE</key>
+				<string>NO</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$HOME/Library/SDKs/ArcGIS/iOS</string>
+					<string>$(PROJECT_DIR)</string>
+				</array>
+				<key>HEADER_SEARCH_PATHS</key>
+				<string></string>
+				<key>INFOPLIST_FILE</key>
+				<string>SGSketchTool/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>-ObjC</string>
+					<string>-framework</string>
+					<string>ArcGIS</string>
+					<string>-l</string>
+					<string>c++</string>
+				</array>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.southgis.SGSketchTool</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>987697821D581592003FC4E4</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>987697831D581592003FC4E4</string>
+				<string>987697841D581592003FC4E4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>987697831D581592003FC4E4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SGSketchToolTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.southgis.SGSketchToolTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SGSketchTool.app/SGSketchTool</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>987697841D581592003FC4E4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SGSketchToolTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.southgis.SGSketchToolTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SGSketchTool.app/SGSketchTool</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>987697851D581592003FC4E4</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>987697861D581592003FC4E4</string>
+				<string>987697871D581592003FC4E4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>987697861D581592003FC4E4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>SGSketchToolUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.southgis.SGSketchToolUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SGSketchTool</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>987697871D581592003FC4E4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>SGSketchToolUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.southgis.SGSketchToolUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SGSketchTool</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>987697881D5815F3003FC4E4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>SketchToolViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697891D5815F3003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>987697881D5815F3003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9876978A1D581A89003FC4E4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9876978D1D582023003FC4E4</string>
+				<string>9876978F1D58248D003FC4E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SketchTool</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876978B1D581AFE003FC4E4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>MapViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876978C1D581AFE003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9876978B1D581AFE003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9876978D1D582023003FC4E4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>SketchEnum.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876978E1D582023003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9876978D1D582023003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9876978F1D58248D003FC4E4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>SketchToolLayer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697901D58248D003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9876978F1D58248D003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>987697951D586420003FC4E4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>net.daringfireball.markdown</string>
+			<key>path</key>
+			<string>README.md</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697961D586420003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>987697951D586420003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>987697971D586443003FC4E4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>LICENSE</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697981D586443003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>987697971D586443003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9876979D1D586B24003FC4E4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>SGSketchLayer.podspec</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9876979E1D586B24003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9876979D1D586B24003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9876979F1D587116003FC4E4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.gif</string>
+			<key>path</key>
+			<string>sketchLayer_gif.gif</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987697A01D587116003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9876979F1D587116003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>987698111D5B0457003FC4E4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Podfile</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>987698121D5B0457003FC4E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>987698111D5B0457003FC4E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9A15BBBA1798FE503000C663</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9E1D4B097947C118BA7A9632</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6C258DB475F0F0AAB15AB5CE</string>
+				<string>9A15BBBA1798FE503000C663</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ABFA5F5B228FCE93E6A8D8B3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EDEFE43B559C267DEC01DAD2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EDEFE43B559C267DEC01DAD2</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>9876974F1D581592003FC4E4</string>
+</dict>
+</plist>

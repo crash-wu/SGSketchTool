@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/wuxiaoxing/Library/Developer/Shared/Documentation/DocSets/com.southgis.sgsketchtool.SGSketchTool.docset
+Time: 2016-08-11 03:13:16 +0000
